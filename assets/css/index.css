@@ -1,0 +1,164 @@
+#titleName {
+    font-size: 72px;
+    font-weight: 800;
+    background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);
+    /*background: -webkit-linear-gradient(#eee, #333);*/
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.skill_icon {
+    width: 100%;
+    height: 100px;
+    padding: 5px 8px 0px 8px;
+}
+
+.skill_icon_tooltip {
+    width: 100%;
+    height: 200px;
+    padding: 5px 8px 0px 8px;
+    display: block;
+}
+
+.tooltiptext .skill_icon_tooltip {
+    transition: 0.1s;
+    visibility: hidden;
+}
+
+.tooltiptext:hover .skill_icon_tooltip {
+    transition: 0.1s;
+    visibility: visible;
+}
+
+.skill-custom {
+    padding: 15px 0 0 0;
+    width: 130px;
+    border-radius: 15px;
+    position: relative;
+    margin: 30px 25px 15px 5px;
+    transition: 0.2s;
+    border: 1px solid white;
+}
+
+.skill-custom:hover {
+    padding: 15px 0 0 0;
+    width: 130px;
+    border-radius: 15px;
+    position: relative;
+    margin: 30px 25px 15px 5px;
+    box-shadow: none !important;
+    transition: 0.2s;
+    background: azure;
+    border: 1px solid aqua;
+}
+
+
+.skill-name {
+    text-align: center;
+    padding: 5px 0 10px 0;
+    border-top: 1px solid antiquewhite;
+    margin: 20px 0 0 0;
+}
+
+.skill-alert-legend {
+    /*background: red;*/
+    height: 15px;
+    width: 15px;
+    /*position: absolute;*/
+    /*right: 0px;*/
+    border-radius: 100%;
+    margin: -20px 0 0 -25px;
+    /*margin: -18px 0 0 100px;*/
+}
+
+.skill-alert {
+    /*background: red;*/
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    right: 0px;
+    border-radius: 100%;
+    margin: -10px 5px 0 0;
+}
+.expert{
+    background: blue;
+}
+.proficient{
+    background: aqua;
+}
+.mid{
+    background: orange;
+}
+.basic{
+    background: yellow;
+}
+.learner{
+    background: greenyellow;
+}
+
+.skill-rows {
+    justify-content: center;
+}
+
+.skill-details-div {
+    position: absolute;
+    background-image: linear-gradient(aqua, violet, yellow);
+    width: 21%;
+    right: -227px;
+    border-radius: 30px 30px 0 0;
+    box-shadow: 0 0 20px -3px black;
+}
+
+ul {
+    /*list-style-image: url("assets/img/skills/ul-li.png");*/
+}
+
+.skill-details-img {
+    width: 50%;
+    height: 100px;
+    padding: 5px 8px 0px 8px;
+    display: block;
+}
+.skill_legend{
+    padding: 5px 0px 7px 40px;
+    border: 1px solid gainsboro;
+    margin: 0 20px 7px 0;
+    border-radius: 20px;
+}
+.skill_legend:hover{
+    padding: 5px 0px 7px 40px;
+    border: 1px solid gainsboro;
+    margin: 0 20px 7px 0;
+    border-radius: 20px;
+    background: rebeccapurple;
+    color: white;
+}
+.resume-edu{
+    background: white;
+    padding: 88px 0 20px 20px;
+    margin: 0 15px 20px 15px;
+    position:relative;
+    box-shadow: 5px 5px 10px 0px black;
+}
+.resume-edu-td{
+    width: 11%;
+}
+.resume-edu-title{
+    font-weight: bold;
+}
+
+.resume-edu-img{
+    width: 205px;
+    position:absolute;
+    top: 0px;
+    left: -25px;
+    height: 90px;
+}
+.resume-edu-span{
+    top: 30px;
+    position: absolute;
+    left: 8px;
+    color: white;
+    font-size: 20px;
+    font-family: initial;
+}
