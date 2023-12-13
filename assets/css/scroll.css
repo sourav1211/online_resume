@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Asap", sans-serif;
+}
+/*body {*/
+/*    background: #42455a;*/
+/*}*/
+
+.training_section {
+    /*min-height: 100vh;*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+.training_section:nth-child(1) {
+    color: #e0ffff;
+}
+.training_section:nth-child(2) {
+    color: #42455a;
+    background: #e0ffff;
+}
+.training_section:nth-child(3) {
+    color: #e0ffff;
+}
+.training_section:nth-child(4) {
+    color: #42455a;
+    background: #e0ffff;
+}
+.training_section .container {
+    /*margin: 100px;*/
+}
+.training_section h1 {
+    font-size: 3rem;
+    margin: 20px;
+}
+.training_section h2 {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.training_section .text-container {
+    display: flex;
+}
+.training_section .text-container .text-box {
+    margin: 20px;
+    margin-left: -20px;
+    /*margin-bottom: 20px;*/
+    padding: 20px;
+    width: 115%;
+    background: linear-gradient(to bottom, #00003C, #083DA7);
+    /*background: linear-gradient(to bottom, #2D023C, #08F0A7);*/
+    /*background: linear-gradient(to bottom, #2D023C, #945FA7);*/
+    /*background: #00c2cb;*/
+}
+.training_section .text-container .text-box h3 {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 900px) {
+    .training_section h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .training_section .text-container {
+        flex-direction: column;
+    }
+}
+
+.reveal {
+    position: relative;
+    opacity: 0;
+    margin-left: -40px;
+}
+
+.reveal.active {
+    opacity: 1;
+}
+.active.fade-bottom {
+    animation: fade-bottom 1s ease-in;
+}
+.active.fade-left {
+    animation: fade-left 1s ease-in;
+}
+.active.fade-right {
+    animation: fade-right 1s ease-in;
+}
+@keyframes fade-bottom {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes fade-left {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fade-right {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
