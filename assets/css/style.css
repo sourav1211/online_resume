@@ -403,7 +403,8 @@ section {
 # About
 --------------------------------------------------------------*/
 #about {
-  background: url("../img/profile-img.jpg") top right no-repeat;
+  background: url("../img/sourav_logo_large2.jpg") top right no-repeat;
+  /*background: url("../img/profile-img.jpg") top right no-repeat;*/
   background-size: cover;
   position: relative;
   background-attachment: fixed;
